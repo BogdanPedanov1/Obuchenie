@@ -42,4 +42,16 @@
   <catalogs>Catalog.Клиенты</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.Организации</catalogs>
+  <catalogs>Catalog.Поставщики</catalogs>
+  <catalogs>Catalog.СерииНоменклатуры</catalogs>
+  <catalogs>Catalog.Склады</catalogs>
+  <catalogs>Catalog.ХарактеристикиНоменклатуры</catalogs>
+  <documents>Document.ЗаказКлиента</documents>
+  <documents>Document.ЗаказНаПеремещение</documents>
+  <documents>Document.ЗаказПоставщику</documents>
+  <documents>Document.ПеремещениеТоваров</documents>
+  <documents>Document.ПриобретениеТоваровУслуг</documents>
+  <documents>Document.РеализацияТоваровУслуг</documents>
+  <enums>Enum.ТипыНоменклатуры</enums>
+  <accumulationRegisters>AccumulationRegister.ТоварыНаСкладах</accumulationRegisters>
 </mdclass:Configuration>

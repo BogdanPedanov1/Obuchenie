@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="baf8608d-75be-4e73-b262-722fa5827fd3">
+  <producedTypes>
+    <objectType typeId="a9941909-1e15-424f-ab80-dfd3063fa952" valueTypeId="5a6625f0-0e39-491d-a782-a87333b14c65"/>
+    <refType typeId="d68e1459-2d18-4e81-afcf-3583f5cbf506" valueTypeId="42ac2232-b5bc-4f08-bd5c-842aabfd1da5"/>
+    <selectionType typeId="63c95c8a-a5fa-42fa-80e1-4bd9549630cf" valueTypeId="785f108c-e858-4664-b00d-e014ff43993a"/>
+    <listType typeId="334c7ab8-5dcc-42db-afa1-99eea966449d" valueTypeId="b5988d51-9876-4558-8cdf-61696fb3eb9f"/>
+    <managerType typeId="2ee90324-41c7-4464-bb70-a03da8d4e25d" valueTypeId="5a2ba9f2-cd3d-415d-94b6-6c8f43018e4f"/>
+  </producedTypes>
+  <name>ЗаказПоставщику</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заказ поставщику</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ЗаказПоставщику.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="e534aaed-f453-42fc-9454-efd35743da0b">
+    <name>Поставщик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поставщик</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2b7a2067-95de-4a28-9266-66127a501538">
+    <name>Склад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Склады</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5bcda60b-1c47-4316-b3fa-bd3c41c7d478">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>

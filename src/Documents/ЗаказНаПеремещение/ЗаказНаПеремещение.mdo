@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a35e0967-4c33-413d-bfe1-5dabcfc8f3a9">
+  <producedTypes>
+    <objectType typeId="06266a9b-02fb-4904-9bf5-28a94c373e20" valueTypeId="b1015c15-afe8-4e1c-99e7-c553970dac2b"/>
+    <refType typeId="3fe109bf-5bc4-4bb3-8576-fab8d8dafac0" valueTypeId="81be195a-cff2-4927-b9f0-9e870cf0b5a9"/>
+    <selectionType typeId="0a39f456-88aa-4ce3-8e31-a0dc4bc016bb" valueTypeId="0e3acaf9-7db9-4bc2-8365-144b4660cd2e"/>
+    <listType typeId="94d87b54-1613-4bc9-b9b6-3b80ae4efc4b" valueTypeId="661e5271-d75c-45aa-859b-a870d9b522f4"/>
+    <managerType typeId="5f793944-fdd9-4ceb-9da5-2932c538275e" valueTypeId="8c32b2dc-9881-4a9d-b8ae-0728cb995384"/>
+  </producedTypes>
+  <name>ЗаказНаПеремещение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заказ на перемещение</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ЗаказНаПеремещение.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="d979a43f-66a6-43f9-a028-0a3ebcfb297b">
+    <name>СкладОтправитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад отправитель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Склады</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ab9c3a33-0aae-4dca-acce-47d459aa0ccd">
+    <name>СкладПолучатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад получатель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Склады</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ce654037-8e3f-4eb1-b778-092a4a411d7b">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>
